@@ -1,0 +1,17 @@
+db = Database()
+db.insert_classe("Assassin", 100, 15, 25, 0.25, 3)
+db.insert_classe("Sniper", 100, 10, 50, 0.6, 5)
+db.insert_classe("Soldat", 150, 10, 25, 0.3, 5)
+db.insert_classe("Tank", 250, 5, 20, 0.5, 6)
+
+db.insert_player("Karl", 1, 5, 0, 0)
+db.insert_player("Edgar", 10, 2, 3, 0)
+db.insert_player("Alexis", 5, 0, 8, 0)
+db.insert_player("Pierre", 1, 1, 5, 20)
+db.insert_player("Leo", 10, 2, 0, 1)
+
+db.insert_score(1, 9000, "Sniper")
+db.insert_score(2, 9000, "Assassin")
+db.insert_score(4, 9000, "Tank")
+db.insert_score(3, 9000, "Soldat")
+db.insert_score(5, 9000, "Assassin")
