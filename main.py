@@ -6,6 +6,6 @@ soldat = character.Character("_______", "SOLDAT", hp_max=150, dmg=35, nb_bullets
 assassin = character.Character("_______", "ASSASSIN", hp_max=75, dmg=50, nb_bullets=3, cd_reload=1)
 tank = character.Character("_______", "TANK", hp_max=300, dmg=40, nb_bullets=2, cd_reload=3)
 
-
+        
 
 print(tank.username)
